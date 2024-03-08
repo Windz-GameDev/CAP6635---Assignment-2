@@ -40,8 +40,10 @@ bash python main.py
 Follow the interactive prompts to configure the SA algorithm and solve an N-puzzle problem. Here are two examples for both schedulers.
 
 - Linear Scheduler:
+  ![Example of Running Program using Linear Scheduler](program_running_example_linear.png "Example of Running Program using Linear Scheduler")
 
 - Geometric Scheduler:
+  ![Example of Running Program using Geometric Scheduler](program_running_example_geometric.png "Example of Running Program using Geometric Scheduler")
 
 ## Future Work
 
