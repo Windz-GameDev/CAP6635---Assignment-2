@@ -6,7 +6,7 @@ to find more efficient and effective ways to map from time to temperature. It us
 
 ## Key Features and Summary 
 - **Simulated Annealing Algorithm**: Utilize SA to solve the N-puzzle problem for perfect square N + 1 where N is 8 to 99.
-**Cooling Schedules**: This includes both linear and geometric scheduler class implementations, which the SA function can use interchangeably.
+- **Cooling Schedules**: This includes both linear and geometric scheduler class implementations, which the SA function can use interchangeably.
 - **Customizable Parameters**: SA variables are highly customizable, meaning users can select their own starting temperature, cooling rate (linear), alpha value (geometric), and min temperature (geometric).
 - **Interactive Prompt**: Interactive command line interface allows for easy experimentation of different values.
 - **Puzzle Input**: The initial puzzle states are read from input text files.
