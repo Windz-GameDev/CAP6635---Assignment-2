@@ -6,7 +6,7 @@ import random
 import time
 
 # For reproducability during testing
-random.seed(42)
+# random.seed(42)
 
 # Parent class for more specific scheduler methods.
 class Scheduler: 
@@ -267,7 +267,7 @@ def main():
             if n_value < 8 or n_value >= 100:
                 print("Your given N value is not in the allowed range.")
             elif not((square_side_length * square_side_length) == n_value + 1):
-                print("Your given N value plus one does not lead to form a square.")
+                print("Your given N value plus 1 is not a perfect square.")
                 print("Note that valid Ns in the given range are 8, 15, 24, 35, 48, 63, 80, and 99.")
             else:
                 print(f"Your N is {n_value}")
